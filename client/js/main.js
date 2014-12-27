@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
 	$(window).on('resize', function(){
 		(!window.requestAnimationFrame) ? setTimeout(moveNavigation, 300) : window.requestAnimationFrame(moveNavigation);
 	});
-
+	nn='ss!';
 	//mobile - open lateral menu clicking on the menu icon
 	$('.cd-nav-trigger').on('click', function(event){
 		event.preventDefault();
@@ -130,3 +130,4 @@ jQuery(document).ready(function($){
 		}
 	}
 });
+(function(){})();
